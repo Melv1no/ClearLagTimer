@@ -16,7 +16,7 @@ Listes des Fonctionnalité disponible:
 
 - Broadcast Alert < permet d'alerter les joueurs qu'un clearLag arrive
 
-##Installation
+## Installation
 
 - Vous devez mettre l'archive jar ClearLagTimer.jar dans votre dossier plugins/
 
