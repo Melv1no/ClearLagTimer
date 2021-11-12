@@ -1,8 +1,8 @@
-package play.trootcraft.fr.task;
+package fr.melv1no.clearlagtimer.task;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import play.trootcraft.fr.ClearLagTimer;
+import fr.melv1no.clearlagtimer.ClearLagTimer;
 
 public class CountdownTask {
     private ClearLagTimer instance;

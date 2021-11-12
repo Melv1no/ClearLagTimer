@@ -1,9 +1,9 @@
-package play.trootcraft.fr.command;
+package fr.melv1no.clearlagtimer.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import play.trootcraft.fr.ClearLagTimer;
+import fr.melv1no.clearlagtimer.ClearLagTimer;
 
 public class ClearLagTimerCMD implements CommandExecutor {
     private ClearLagTimer instance;

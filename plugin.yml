@@ -2,7 +2,7 @@ name: ClearLagTimer
 author: [Crazzoxx, TrootCraft]
 website: github.com/Melv1no
 version: 1.0
-main: play.trootcraft.fr.ClearLagTimer
+main: fr.melv1no.clearlagtimer.ClearLagTimer
 softdepend:
   - ClearLag
 commands:

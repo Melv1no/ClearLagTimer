@@ -1,16 +1,14 @@
-package play.trootcraft.fr;
+package fr.melv1no.clearlagtimer;
 
+import fr.melv1no.clearlagtimer.command.ClearLagTimerCMD;
+import fr.melv1no.clearlagtimer.task.CountdownTask;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import play.trootcraft.fr.command.ClearLagTimerCMD;
-import play.trootcraft.fr.task.CountdownTask;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.List;
 
 public class ClearLagTimer extends JavaPlugin {
     public int IntervalTimer;
