@@ -6,5 +6,5 @@ main: play.trootcraft.fr.ClearLagTimer
 softdepend:
   - ClearLag
 commands:
-  nlag:
+  clearlag:
     description: Donne le temps qu il reste avant le prochain clear lag

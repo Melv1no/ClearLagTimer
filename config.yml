@@ -1,6 +1,3 @@
-command-aliases:
-  - "nextclear"
-  - "clearlag"
 countdown-message: "&cClearLag &7> &4{time} &csecondes avant le prochain ClearLag"
 broadcast-alert:
   enable: false
