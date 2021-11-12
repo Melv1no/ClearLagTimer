@@ -1,7 +1,7 @@
-countdown-message: "&cClearLag &7> &4{time} &csecondes avant le prochain ClearLag"
+countdown-message: "&cClearLag &7> &4{time} &cavant le prochain ClearLag" #Ne pas mettre l'unité
 broadcast-alert:
   enable: false
-  broadcast-message: "&cClearLag &7> &cToute les entité serront supprimer dans &4{time} &csecondes !"
+  broadcast-message: "&cClearLag &7> &cToute les entité serront supprimer dans &4{time} !" #Ne pas mettre l'unité
   alertInterval:
     - 60
     - 30
