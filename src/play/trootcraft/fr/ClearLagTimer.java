@@ -35,6 +35,8 @@ public class ClearLagTimer extends JavaPlugin {
         countdownTask = new CountdownTask(this);
         countdownTask.Countdown();
         Bukkit.getConsoleSender().sendMessage("ClearLagTimer Activé !");
+
+        Bukkit.getPluginCommand("nlag").setAliases(this.getConfig().getStringList("command-aliases"));
         Bukkit.getPluginCommand("nlag").setExecutor(new ClearLagTimerCMD(this));
 
     }
