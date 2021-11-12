@@ -2,6 +2,7 @@
 # ClearLagTimer
 
 ClearLagTimer est un addon (plugin) pour le plugin ClearLag.
+Ce plugin a été tester en 1.8.8 !
 
 
 ## Commande
@@ -14,6 +15,10 @@ Listes des Commandes disponible:
 Listes des Fonctionnalité disponible:
 
 - Broadcast Alert < permet d'alerter les joueurs qu'un clearLag arrive
+
+##Installation
+
+- Vous devez mettre l'archive jar ClearLagTimer.jar dans votre dossier plugins/
 
 ## Support
 
