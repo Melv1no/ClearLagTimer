@@ -1,0 +1,10 @@
+name: ClearLagTimer
+author: [Crazzoxx, TrootCraft]
+website: github.com/Melv1no
+version: 1.0
+main: play.trootcraft.fr.ClearLagTimer
+softdepend:
+  - ClearLag
+commands:
+  nlag:
+    description: Donne le temps qu il reste avant le prochain clear lag

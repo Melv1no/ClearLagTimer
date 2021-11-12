@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ClearLagTimerPro">
+    <output-path>$PROJECT_DIR$/../../TrootCraft/plugins</output-path>
+    <root id="archive" name="ClearLagTimerPro.jar">
+      <element id="module-output" name="ClearLagTimer" />
+      <element id="library" level="project" name="spigot-1.8.8-R0.1-SNAPSHOT-latest" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+    </root>
+  </artifact>
+</component>
