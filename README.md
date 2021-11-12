@@ -14,6 +14,7 @@ Listes des Commandes disponible:
 ## Fonctionnalité
 Listes des Fonctionnalité disponible:
 
+- Configuration éditable 
 - Broadcast Alert < permet d'alerter les joueurs qu'un clearLag arrive
 
 ## Installation
