@@ -8,7 +8,7 @@ ClearLagTimer est un addon (plugin) pour le plugin ClearLag.
 
 Listes des Commandes disponible:
 
-- /nlag < Permet de voir le temps restant avant le prochain ClearLag
+- /clearlag < Permet de voir le temps restant avant le prochain ClearLag
 
 ## Fonctionnalité
 Listes des Fonctionnalité disponible:
