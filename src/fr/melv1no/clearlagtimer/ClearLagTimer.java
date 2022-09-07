@@ -24,7 +24,7 @@ public class ClearLagTimer extends JavaPlugin {
         checkClearLagConfig();
         if(getConfig().getBoolean("broadcast-alert.enable")){
             broadcastFeatureIsEnable = true;
-            Bukkit.getConsoleSender().sendMessage("La Feature d'alerte ClearLag est activé !");
+            Bukkit.getConsoleSender().sendMessage("La Feature d'alerte ClearLag est activée !");
              alertInterval = new ArrayList<>();
             for(int i : this.getConfig().getIntegerList("broadcast-alert.alertInterval")){
                 alertInterval.add(i);
@@ -40,7 +40,7 @@ public class ClearLagTimer extends JavaPlugin {
     private void checkClearLagConfig() {
         File file = new File("plugins/ClearLag/config.yml");
         if(!file.exists()){
-            Bukkit.getConsoleSender().sendMessage("e[ClearLagTimer] §cUne erreur c'est produite ! Impossible de lire le fichier de configuration de CleagLag ");
+            Bukkit.getConsoleSender().sendMessage("e[ClearLagTimer] §cUne erreur s'est produite ! Impossible de lire le fichier de configuration de CleagLag ");
             this.getServer().getPluginManager().disablePlugin(this);
             return;
         }
@@ -53,10 +53,10 @@ public class ClearLagTimer extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("§e[ClearLagTimer] Recherche du plugin ClearLag");
         if (Bukkit.getServer().getPluginManager().getPlugin("ClearLag") != null) {
             if (Bukkit.getServer().getPluginManager().getPlugin("ClearLag").isEnabled()) {
-                Bukkit.getConsoleSender().sendMessage("§e[ClearLagTimer] §aBingo ! §eLe plugin ClearLag a été trouver !");
+                Bukkit.getConsoleSender().sendMessage("§e[ClearLagTimer] §aBingo ! §eLe plugin ClearLag a été trouvé !");
             }
         } else {
-            Bukkit.getConsoleSender().sendMessage("§e[ClearLagTimer] §cUne erreur c'est produite ! Impossible de trouver le plugin ClearLag!");
+            Bukkit.getConsoleSender().sendMessage("§e[ClearLagTimer] §cUne erreur s'est produite ! Impossible de trouver le plugin ClearLag!");
             this.getServer().getPluginManager().disablePlugin(this);
         }
     }
